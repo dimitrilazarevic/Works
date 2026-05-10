@@ -67,7 +67,7 @@
 			<div class="social-section">
 				<p class="section-label">Réseaux</p>
 				<div class="social-links">
-					{#each profile.socials as social}
+					{#each profile.socials as social (social.label)}
 						<a href={social.href} class="social-btn" target="_blank" rel="noopener noreferrer">
 							{@html social.icon}
 							<span>{social.label}</span>

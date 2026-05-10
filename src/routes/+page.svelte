@@ -56,7 +56,7 @@
 	</header>
 
 	<div class="grid">
-		{#each projects as project}
+		{#each projects as project (project.title)}
 			<a
 				href={project.href}
 				class="card"
