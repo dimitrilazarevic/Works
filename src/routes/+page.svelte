@@ -21,21 +21,21 @@
 			title: 'Publipostage',
 			description: `Un outil performant qui permet d'automatiser de l'envoi de mail à partir d'un template docx et d'un excel, qui prend en charge la connexion SSO via Google et Microsoft.`,
 			tag: 'Frontend · Backend',
-			href: '/applications-web',
+			href: 'https://google.com',
 			color: 'blue'
 		},
 		{
 			title: 'Wizardoc',
 			description: `Automatiser l'analyse de documents pour tous les usages métier de votre choix, et définir des actions après analyse.`,
 			tag: 'Frontend · Backend · IA',
-			href: '/applications-web',
+			href: 'https://google.com',
 			color: 'purple'
 		},
 		{
 			title: `L'Oréal Dataviz`,
 			description: `Un outil de visualisation de données et de gestion de fichiers de simulation pour l'Oréal.`,
 			tag: 'Frontend · Backend',
-			href: '/applications-web',
+			href: 'https://google.com',
 			color: 'green'
 		}
 	];
