@@ -19,9 +19,9 @@
 	}[] = [
 		{
 			title: 'Publipostage',
-			description: `Un outil performant qui permet d'automatiser de l'envoi de mail à partir d'un template docx et d'un excel, qui prend en charge la connexion SSO via Google et Microsoft.`,
+			description: `Un outil performant qui permet d'automatiser de l'envoi de mails à partir d'un template docx et d'un excel, qui prend en charge la connexion SSO via Google et Microsoft.`,
 			tag: 'Frontend · Backend',
-			href: 'https://google.com',
+			href: 'https://publipostage.dimitri-lazarevic.fr',
 			color: 'blue'
 		},
 		{
@@ -52,7 +52,6 @@
 <div class="page">
 	<header class="page-header">
 		<h1>Mes projets</h1>
-		<p>Sélectionnez un domaine pour découvrir mes réalisations et mon approche.</p>
 	</header>
 
 	<div class="grid">
@@ -60,6 +59,7 @@
 			<a
 				href={project.href}
 				class="card"
+				target="_blank"
 				style="--bg: {palette[project.color].bg}; --accent: {palette[project.color].accent};"
 			>
 				<div class="card-top">
