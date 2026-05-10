@@ -116,12 +116,7 @@
 		letter-spacing: -0.02em;
 		margin-bottom: 0.75rem;
 	}
-
-	.page-header p {
-		font-size: 1rem;
-		color: var(--text-secondary);
-	}
-
+	
 	.grid {
 		display: flex;
 		flex-direction: column;
