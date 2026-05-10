@@ -116,7 +116,7 @@
 		letter-spacing: -0.02em;
 		margin-bottom: 0.75rem;
 	}
-	
+
 	.grid {
 		display: flex;
 		flex-direction: column;
