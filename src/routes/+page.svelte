@@ -35,7 +35,7 @@
 			title: `L'Oréal Dataviz`,
 			description: `Un outil de visualisation de données et de gestion de fichiers de simulation pour l'Oréal.`,
 			tag: 'Frontend · Backend',
-			href: 'https://google.com',
+			href: 'https://loreal-dataviz.dimitri-lazarevic.fr',
 			color: 'green'
 		}
 	];
