@@ -1,35 +1,41 @@
 <script lang="ts">
 	const palette = {
-		blue:   { bg: '#eff6ff', accent: '#2563eb' },
-		green:  { bg: '#f0fdf4', accent: '#16a34a' },
+		blue: { bg: '#eff6ff', accent: '#2563eb' },
+		green: { bg: '#f0fdf4', accent: '#16a34a' },
 		purple: { bg: '#faf5ff', accent: '#7c3aed' },
-		amber:  { bg: '#fffbeb', accent: '#d97706' },
-		cyan:   { bg: '#f0f9ff', accent: '#0284c7' },
-		rose:   { bg: '#fff1f2', accent: '#e11d48' }
+		amber: { bg: '#fffbeb', accent: '#d97706' },
+		cyan: { bg: '#f0f9ff', accent: '#0284c7' },
+		rose: { bg: '#fff1f2', accent: '#e11d48' }
 	} as const;
 
 	type Color = keyof typeof palette;
 
-	const projects: { title: string; description: string; tag: string; href: string; color: Color }[] = [
+	const projects: {
+		title: string;
+		description: string;
+		tag: string;
+		href: string;
+		color: Color;
+	}[] = [
 		{
 			title: 'Publipostage',
 			description: `Un outil performant qui permet d'automatiser de l'envoi de mail à partir d'un template docx et d'un excel, qui prend en charge la connexion SSO via Google et Microsoft.`,
 			tag: 'Frontend · Backend',
-			href: '/applications-web',
+			href: 'https://google.com',
 			color: 'blue'
 		},
 		{
 			title: 'Wizardoc',
 			description: `Automatiser l'analyse de documents pour tous les usages métier de votre choix, et définir des actions après analyse.`,
 			tag: 'Frontend · Backend · IA',
-			href: '/applications-web',
+			href: 'https://google.com',
 			color: 'purple'
 		},
 		{
 			title: `L'Oréal Dataviz`,
 			description: `Un outil de visualisation de données et de gestion de fichiers de simulation pour l'Oréal.`,
 			tag: 'Frontend · Backend',
-			href: '/applications-web',
+			href: 'https://google.com',
 			color: 'green'
 		}
 	];
@@ -50,14 +56,18 @@
 	</header>
 
 	<div class="grid">
-		{#each projects as project}
+		{#each projects as project (project.title)}
 			<a
 				href={project.href}
 				class="card"
 				style="--bg: {palette[project.color].bg}; --accent: {palette[project.color].accent};"
 			>
 				<div class="card-top">
-					<span class="tag" style="color: {palette[project.color].accent}; background: {palette[project.color].accent}18;">
+					<span
+						class="tag"
+						style="color: {palette[project.color].accent}; background: {palette[project.color]
+							.accent}18;"
+					>
 						{project.tag}
 					</span>
 				</div>
