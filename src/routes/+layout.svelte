@@ -5,7 +5,7 @@
 	const profile = {
 		name: 'Dimitri Lazarevic',
 		role: 'Développeur Full-Stack',
-		availability: 'Disponible pour missions',
+		availability: 'Actuellement employé',
 		email: 'lazarevic.dimitri@gmail.com',
 		socials: [
 			{

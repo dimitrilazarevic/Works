@@ -25,17 +25,10 @@
 			color: 'blue'
 		},
 		{
-			title: 'Wizardoc',
-			description: `Automatiser l'analyse de documents pour tous les usages métier de votre choix, et définir des actions après analyse.`,
-			tag: 'Frontend · Backend · IA',
-			href: 'https://google.com',
-			color: 'purple'
-		},
-		{
-			title: `L'Oréal Dataviz`,
-			description: `Un outil de visualisation de données et de gestion de fichiers de simulation pour l'Oréal.`,
+			title: `Medlern`,
+			description: `Un outil basé sur les sciences cognitives, pour vous aider à apprendre tout ce que vous voulez.`,
 			tag: 'Frontend · Backend',
-			href: 'https://loreal-dataviz.dimitri-lazarevic.fr',
+			href: 'https://medlern.dimitri-lazarevic.fr',
 			color: 'green'
 		}
 	];
